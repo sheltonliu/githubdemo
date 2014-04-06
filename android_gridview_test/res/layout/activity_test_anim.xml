@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/progress_cloud_bar"
+        style="@style/progress_cloud_anim_style"
+        android:layout_width="182dp"
+        android:layout_height="55dp"
+        android:visibility="visible" />
+    
+    <ImageView 
+        android:id="@+id/iv_slip_off_on"
+         android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:background="@drawable/slip_off_on"
+        />
+    
+    <ImageView 
+        android:id="@+id/iv_slip_bar"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:background="@drawable/slip_bar"
+        />
+    
+    
+
+    <com.example.android_gridview_test.SlipSwitchView
+        android:id="@+id/view_switchview"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="13dip" />  
+        
+    <TextView 
+        android:id="@+id/tv"
+         android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="文本按钮文本按钮文本按钮"
+        />
+
+</LinearLayout>
